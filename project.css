@@ -1,0 +1,80 @@
+body{direction: rtl;}
+#div2{
+    display: flex;
+}
+#dsaside{
+    width: 90px;
+    height: 75px;
+}
+
+header{
+    direction: rtl; 
+}
+
+
+#title{
+    text-align: center;
+    background-color: aqua;
+}
+main{
+    direction: rtl;
+}
+.maintitle{
+    font-size: xx-large;
+}
+.maintext{
+    font-size:medium;
+}
+#COD1{
+    width: 950px;
+    height: 450px;
+}
+#mt{
+    width: 950px ;
+    height: 450px;
+}
+#asidediv{
+text-align: right;
+flex-grow: 0;
+background-color:purple;
+}
+#bodydiv{
+    flex-grow: 3;
+}
+footer{
+    display: flex;
+}
+#divfooter1{
+    flex-grow: 1;
+    background-color: red;
+}
+#divfooter2{
+    flex-grow: 1;
+    background-color: green;
+}
+#list{
+    padding: 5px;
+    
+    margin: 5px;
+    display: flex;
+    text-align: right;
+    background-color: aqua;
+}
+#li1{
+    flex-grow: 1;
+    background-color:blue;
+
+}
+#li2{
+    flex-grow: 1;
+    background-color: red;
+}
+#li3{
+    flex-grow: 1;
+    background-color: yellow;
+}
+#li4{
+    
+    flex-grow: 1;
+    background-color: green;
+}
