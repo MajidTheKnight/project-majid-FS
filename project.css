@@ -1,7 +1,17 @@
 body{direction: rtl;}
-#div2{
+#divasli{
     display: flex;
 }
+#asidediv{
+    text-align: right;
+    flex-grow: 1;
+    background-color:purple;
+    }
+    #bodydiv{
+        flex-grow: 3;
+    }
+/*---------------------*/
+
 #dsaside{
     width: 90px;
     height: 75px;
@@ -33,14 +43,6 @@ main{
     width: 950px ;
     height: 450px;
 }
-#asidediv{
-text-align: right;
-flex-grow: 0;
-background-color:purple;
-}
-#bodydiv{
-    flex-grow: 3;
-}
 footer{
     display: flex;
 }
@@ -52,29 +54,21 @@ footer{
     flex-grow: 1;
     background-color: green;
 }
-#list{
-    padding: 5px;
-    
+ul li{
+    background-color:azure;
     margin: 5px;
-    display: flex;
-    text-align: right;
-    background-color: aqua;
+    list-style: none;
+    width: 100px;
+    border-radius:25%;
+    flex-grow: 0;
+    border:  1;
+    border-color: black;
+    border-radius: 5px;
 }
-#li1{
-    flex-grow: 1;
-    background-color:blue;
-
-}
-#li2{
-    flex-grow: 1;
+ul{
     background-color: red;
-}
-#li3{
-    flex-grow: 1;
-    background-color: yellow;
-}
-#li4{
-    
-    flex-grow: 1;
-    background-color: green;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
