@@ -12,11 +12,6 @@ body{direction: rtl;}
     }
 /*---------------------*/
 
-#dsaside{
-    width: 90px;
-    height: 75px;
-}
-
 header{
     direction: rtl; 
 }
@@ -28,20 +23,28 @@ header{
 }
 main{
     direction: rtl;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+main div{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 .maintitle{
     font-size: xx-large;
+    font-family: tahoma;
+    flex-grow: 1;
 }
 .maintext{
     font-size:medium;
+    flex-grow: 1;
 }
-#COD1{
-    width: 950px;
-    height: 450px;
-}
-#mt{
-    width: 950px ;
-    height: 450px;
+.img1{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
 }
 footer{
     display: flex;
