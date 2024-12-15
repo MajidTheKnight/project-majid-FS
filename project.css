@@ -26,12 +26,18 @@ main {
 .img-fluid {
     width: 100%;
     height: auto;
-    max-width: 500px; 
-    margin: 0 auto; 
+    max-width: 100%; 
+    margin: 20px auto; 
     display: block;
     border-radius: 10px;
-    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .my-5 {
