@@ -1,123 +1,119 @@
 body {
-    font-family: 'Arial', sans-serif;
-    direction: rtl;
-    background-image: url('MW.jpg'); 
-    background-size: cover;          
-    background-position: center;     
-    background-attachment: fixed;    
-    background-repeat: no-repeat;    
-    color: #333;                     
-    margin: 0;
-    padding: 0;
-    height: 100vh;              
-    text-shadow: 2px 2px 5px black;     
-}
-
-body::after {
-    content: '';  
+    font-family: 'Arial', sans-serif !important;
+    direction: rtl !important;
+    background-image: url('MW.jpg') !important; 
+    background-size: cover !important;          
+    background-position: center !important;     
+    background-attachment: fixed !important;    
+    background-repeat: no-repeat !important;    
+    color: #000 !important; /* Set all text to black */
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh !important;              
+    text-shadow: 2px 2px 5px black !important; /* Apply a subtle shadow for readability */
 }
 
 main {
-    position: relative;
-    z-index: 2;                      
-    padding-top: 50px;                
-    color: #fff;  
-    text-shadow: 2px 2px 5px black;                   
+    position: relative !important;
+    z-index: 2 !important;                      
+    padding-top: 50px !important;                
+    color: #000 !important;  /* Ensure text is black in the main section */
+    text-shadow: 2px 2px 5px black !important;  /* Text shadow for main content */
 }
 
 .img-fluid {
-    width: 100%;
-    height: auto;
-    max-width: 100%; 
-    margin: 20px auto; 
-    display: block;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important; 
+    margin: 20px auto !important; 
+    display: block !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
 }
 
 .img-thumbnail {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
 }
 
 .my-5 {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
 }
 
 footer {
-    background-color: #333;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
+    background-color: #333 !important;
+    padding: 20px !important;
+    color: white !important;
+    text-align: center !important;
+    text-shadow: 2px 2px 5px black !important;
 }
 
 .display-4 {
-    color: #fff !important;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
+    color: #000 !important; /* Set text to black */
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
 }
 
 .lead {
-    font-size: 1.2rem;
-    color: #fff !important;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    text-align: justify;
-    text-shadow: 2px 2px 5px black;
+    font-size: 1.2rem !important;
+    color: #000 !important; /* Set text to black */
+    line-height: 1.6 !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
 }
 
 .nav-link {
-    color: #ffffff !important;
-    font-weight: bold;
-    font-size: 1rem;
+    color: #000 !important; /* Set nav link text to black */
+    font-weight: bold !important;
+    font-size: 1rem !important;
 }
 
 .nav-link:hover {
-    color: #f0f0f0 !important;
+    color: #333 !important; /* Darker text on hover */
 }
 
 button {
-    background-color: #007bff;
-    color: white;
-    font-size: 1.1rem;
-    padding: 10px 20px;
-    border: none;
+    background-color: #007bff !important;
+    color: white !important;
+    font-size: 1.1rem !important;
+    padding: 10px 20px !important;
+    border: none !important;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+    transition: background-color 0.3s ease !important;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3 !important;
 }
 
 footer .container span {
-    font-size: 1rem;
-    color: white;
-    text-shadow: 2px 2px 5px black;
+    font-size: 1rem !important;
+    color: white !important;
+    text-shadow: 2px 2px 5px black !important;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    color: white;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 5px black;
+    color: black !important; /* Set headings and paragraphs to black */
+    margin-bottom: 20px !important;
+    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
-    text-shadow: 2px 2px 5px black;
+    color: #000 !important; /* Set link text to black */
+    text-decoration: none !important;
+    text-shadow: 2px 2px 5px black !important;
 }
 
 a:hover {
-    color: #f0f0f0;
-    text-decoration: underline;
+    color: #333 !important; /* Darker text color on hover */
+    text-decoration: underline !important;
 }
 
 .navbar, .navbar-nav {
@@ -125,27 +121,34 @@ a:hover {
 }
 
 .nav-link {
-    color: #ffffff !important;
-    text-transform: uppercase;
+    color: #000 !important; /* Set nav link text to black */
+    text-transform: uppercase !important;
 }
 
 .nav-link:hover {
-    color: #f0f0f0 !important;
+    color: #333 !important; /* Darker text on hover */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ffffff !important;
-    font-weight: bold;
-    text-shadow: none;
-    text-shadow: 1000px 1000px 5px black;
+    color: #000 !important; /* Set all headings to black */
+    font-weight: bold !important;
+    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
 }
 
 body, p, h1, h2, h3, h4, h5, h6, .lead, .display-4 {
-    text-shadow: 2px 2px 5px black !important
+    text-shadow: 2px 2px 5px black !important; /* General text shadow for visibility */
 }
 
 #p_in_index {
-    color: black;
-    justify-content: center;
-    font-size: x-large;
+    color: black !important;
+    justify-content: center !important;
+    font-size: x-large !important;
+    text-align: center !important;
+}
+
+#div-in-about{
+    color: black !important;
+    justify-content: center !important;
+    font-size: medium !important;
+    text-align: center !important;
 }
