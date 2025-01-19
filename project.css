@@ -6,19 +6,19 @@ body {
     background-position: center !important;     
     background-attachment: fixed !important;    
     background-repeat: no-repeat !important;    
-    color: #000 !important; /* Set all text to black */
+    color: #000 !important; 
     margin: 0 !important;
     padding: 0 !important;
     height: 100vh !important;              
-    text-shadow: 2px 2px 5px black !important; /* Apply a subtle shadow for readability */
+    text-shadow: 2px 2px 5px black !important; 
 }
 
 main {
     position: relative !important;
     z-index: 2 !important;                      
     padding-top: 50px !important;                
-    color: #000 !important;  /* Ensure text is black in the main section */
-    text-shadow: 2px 2px 5px black !important;  /* Text shadow for main content */
+    color: #000 !important;  
+    text-shadow: 2px 2px 5px black !important; 
 }
 
 .img-fluid {
@@ -51,31 +51,31 @@ footer {
 }
 
 .display-4 {
-    color: #000 !important; /* Set text to black */
+    color: #000 !important; 
     font-size: 2.5rem !important;
     font-weight: bold !important;
     margin-bottom: 20px !important;
     text-align: center !important;
-    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
+    text-shadow: 2px 2px 5px black !important; 
 }
 
 .lead {
     font-size: 1.2rem !important;
-    color: #000 !important; /* Set text to black */
+    color: #000 !important; 
     line-height: 1.6 !important;
     margin-bottom: 20px !important;
     text-align: justify !important;
-    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
+    text-shadow: 2px 2px 5px black !important; 
 }
 
 .nav-link {
-    color: #000 !important; /* Set nav link text to black */
+    color: #000 !important; 
     font-weight: bold !important;
     font-size: 1rem !important;
 }
 
 .nav-link:hover {
-    color: #333 !important; /* Darker text on hover */
+    color: #333 !important; 
 }
 
 button {
@@ -100,19 +100,19 @@ footer .container span {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    color: black !important; /* Set headings and paragraphs to black */
+    color: black !important; 
     margin-bottom: 20px !important;
-    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
+    text-shadow: 2px 2px 5px black !important; 
 }
 
 a {
-    color: #000 !important; /* Set link text to black */
+    color: #000 !important; 
     text-decoration: none !important;
     text-shadow: 2px 2px 5px black !important;
 }
 
 a:hover {
-    color: #333 !important; /* Darker text color on hover */
+    color: #333 !important; 
     text-decoration: underline !important;
 }
 
@@ -121,22 +121,22 @@ a:hover {
 }
 
 .nav-link {
-    color: #000 !important; /* Set nav link text to black */
+    color: #000 !important; 
     text-transform: uppercase !important;
 }
 
 .nav-link:hover {
-    color: #333 !important; /* Darker text on hover */
+    color: #333 !important; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000 !important; /* Set all headings to black */
+    color: #000 !important; 
     font-weight: bold !important;
-    text-shadow: 2px 2px 5px black !important; /* Add text shadow */
+    text-shadow: 2px 2px 5px black !important; 
 }
 
 body, p, h1, h2, h3, h4, h5, h6, .lead, .display-4 {
-    text-shadow: 2px 2px 5px black !important; /* General text shadow for visibility */
+    text-shadow: 2px 2px 5px black !important; 
 }
 
 #p_in_index {

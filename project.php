@@ -7,7 +7,6 @@
 
     <p class="lead text-justify">Gaming genres are diverse, and many games fall into various categories. Learn about the most popular ones in this article.</p>
 
-    <!-- Action Games Section -->
     <div class="my-5">
         <p class="display-4 text-center">Action Games</p>
         <div class="row justify-content-center">
@@ -18,7 +17,6 @@
         <p class="lead text-justify mt-3">Action games are those requiring physical activity from the character, including fighting, running, and jumping. Popular games include Fortnite, Mortal Kombat, Halo, and Call of Duty.</p>
     </div>
 
-    <!-- Shooter Games Section -->
     <div class="my-5">
         <p class="display-4 text-center">Shooter Games</p>
         <div class="row justify-content-center">
@@ -29,7 +27,6 @@
         <p class="lead text-justify mt-3">Shooter games emphasize precision and fast reflexes, offering both single-player and multiplayer modes. Call of Duty, Metro 2033, and Far Cry are popular titles.</p>
     </div>
 
-    <!-- Adventure Games Section -->
     <div class="my-5">
         <p class="display-4 text-center">Adventure Games</p>
         <div class="row justify-content-center">
@@ -40,7 +37,6 @@
         <p class="lead text-justify mt-3">Adventure games involve exploring vast environments and solving puzzles. Titles like Assassin's Creed, The Last of Us, and Uncharted fall under this genre.</p>
     </div>
 
-    <!-- Sports Games Section -->
     <div class="my-5">
         <p class="display-4 text-center">Sports Games</p>
         <div class="row justify-content-center">
@@ -51,7 +47,6 @@
         <p class="lead text-justify mt-3">Sports games simulate real-world sports, including games like FIFA, NBA 2K, and Pro Evolution Soccer.</p>
     </div>
 
-    <!-- Role-Playing Games Section -->
     <div class="my-5">
         <p class="display-4 text-center">Role-Playing Games (RPG)</p>
         <div class="row justify-content-center">
@@ -62,7 +57,6 @@
         <p class="lead text-justify mt-3">RPGs immerse players in a complex narrative with character progression. Popular titles include The Witcher 3, Kingdom Come: Deliverance, and Dark Souls.</p>
     </div>
 
-    <!-- Strategy Games Section -->
     <div class="my-5">
         <p class="display-4 text-center">Strategy Games</p>
         <div class="row justify-content-center">
