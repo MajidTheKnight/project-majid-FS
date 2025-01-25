@@ -115,19 +115,19 @@ a:hover {
     color: #333 !important; 
     text-decoration: underline !important;
 }
-
 .navbar, .navbar-nav {
-    background-color: transparent !important;
+    background-color: #007bff !important;  
+    color: white !important;  
 }
 
 .nav-link {
-    color: #000 !important; 
-    text-transform: uppercase !important;
+    color: white !important;  
 }
 
 .nav-link:hover {
-    color: #333 !important; 
+    color: #333 !important;  
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #000 !important; 

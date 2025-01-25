@@ -24,3 +24,33 @@
 </main>
 
 <?php include("foot.html"); ?>
+
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $username = $_POST['username'];
+    $age = $_POST['age'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+
+    $connect = mysqli_connect("localhost", "root", "", "signup");
+
+    if (!$connect) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+
+    $query = "INSERT INTO `login` (`Username`, `Age`, `PhoneNumber`, `Email`) 
+              VALUES ('$username', '$age', '$phone', '$email')";
+
+    if (mysqli_query($connect, $query)) {
+        echo "Signup successful!";
+
+    } else {
+        echo "Error: " . $query . "<br>" . mysqli_error($connect);
+    }
+
+    mysqli_close($connect);
+}
+?>
+
