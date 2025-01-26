@@ -12,8 +12,8 @@
             <input type="text" class="form-control" id="age" name="age" required>
         </div>
         <div class="form-group">
-            <label for="phone">Phone Number:</label>
-            <input type="text" class="form-control" id="phone" name="phone" required>
+            <label for="Password">Password:</label>
+            <input type="text" class="form-control" id="Password" name="Password" required>
         </div>
         <div class="form-group">
             <label for="email">Email:</label>
@@ -23,15 +23,13 @@
     </form>
 </main>
 
-<?php include("foot.html"); ?>
-
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $username = $_POST['username'];
     $age = $_POST['age'];
-    $phone = $_POST['phone'];
+    $Password = $_POST['Password'];
     $email = $_POST['email'];
 
     $connect = mysqli_connect("localhost", "root", "", "signup");
@@ -40,8 +38,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Connection failed: " . mysqli_connect_error());
     }
 
-    $query = "INSERT INTO `login` (`Username`, `Age`, `PhoneNumber`, `Email`) 
-              VALUES ('$username', '$age', '$phone', '$email')";
+    $query = "INSERT INTO `login` (`Username`, `Age`, `Password`, `Email`) 
+              VALUES ('$username', '$age', '$Password', '$email')";
 
     if (mysqli_query($connect, $query)) {
         echo "Signup successful!";
@@ -53,4 +51,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mysqli_close($connect);
 }
 ?>
+
+
+<?php include("foot.html"); ?>
+
 
