@@ -1,6 +1,5 @@
-<?php
-include("head.html")
-?>
+<?php include("head.php"); ?>
+
 <div id="div-in-about" >
 <p>hey fellas im happy you were curios to find out more about me</p>
 <p>So guys I am Majid Mehdizadeh and I am from Iran</p>
@@ -13,6 +12,5 @@ include("head.html")
 </p>
 <p>thank you for your time</p>
 </div>
-<?php
-include("foot.html")
-?>
+
+<?php include("foot.php"); ?>

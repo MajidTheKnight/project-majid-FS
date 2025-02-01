@@ -1,5 +1,5 @@
 
-<?php include("head.html"); ?>
+<?php include("head.php"); ?>
 
 <main class="container mt-5">
     <div class="text-center mb-5">
@@ -69,4 +69,4 @@
     </div>
 </main>
 
-<?php include("foot.html"); ?>
+<?php include("foot.php"); ?>

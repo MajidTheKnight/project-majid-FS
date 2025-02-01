@@ -81,17 +81,17 @@ h2 {
 }
 
 .signup-link {
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 10px !important;
+    font-size: 14px !important;
 }
 
 .signup-link a {
-    color: #ffcc00;
-    text-decoration: none;
+    color: #ffcc00 !important;
+    text-decoration: none !important;
 }
 
 .signup-link a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 @media screen and (max-width: 768px) {

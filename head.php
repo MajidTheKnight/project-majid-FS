@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (isset($_SESSION['username'])) {
+    echo "Welcome, " . $_SESSION['username'] . "! <a href='logout.php'>Logout</a>";
+} else {
+    echo "You are not logged in. <a href='login.php'>Login</a>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +32,8 @@
                         <li class="nav-item"><a href="project.php" class="nav-link text-white">Genres</a></li>
                         <li class="nav-item"><a href="signup.php" class="nav-link text-white">Sign Up</a></li>
                         <li class="nav-item"><a href="Login.php" class="nav-link text-white">Login</a></li>
+                        <li class="nav-item"><a href="Logout.php" class="nav-link text-white">Logout</a></li>
+
                     </ul>
                 </div>
             </header>

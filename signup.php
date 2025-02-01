@@ -1,4 +1,4 @@
-<?php include("head.html"); ?>
+<?php include("head.php"); ?>
 
 <main class="container mt-5">
     <h1 class="text-center">Signup</h1>
@@ -53,6 +53,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 
-<?php include("foot.html"); ?>
-
+<?php include("foot.php"); ?>
 

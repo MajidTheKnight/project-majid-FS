@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Popular Game Genres</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="project.css">
 </head>
@@ -12,20 +12,15 @@
     <div id="divasli">
         <div id="bodydiv">
             <header>
-                <div id="title">
-
-                </div>   
                 <div>
-                    <ul class="nav justify-content-center bg-dark">
+                    <ul class="nav justify-content-center bg-black">
                         <li class="nav-item"><a href="index.php" class="nav-link text-white">Home</a></li>
+                        <li class="nav-item"><a href="signup.php" class="nav-link text-white">Sign Up</a></li>
                     </ul>
                 </div>
             </header>
         </div>
     </div>
-
-
-
 
     <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +31,7 @@
     <title>Gaming Login</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="Login.css">
-    <link rel="stylesheet" href="project.css">
+
 </head>
 <body>
     <div class="login-container">
@@ -56,4 +51,3 @@
     </div>
 </body>
 </html>
-
