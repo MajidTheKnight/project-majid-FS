@@ -18,29 +18,30 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `signup`
+-- Database: `news`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `login`
+-- Table structure for table `newssave`
 --
 
-DROP TABLE IF EXISTS `login`;
-CREATE TABLE IF NOT EXISTS `login` (
-  `Username` varchar(40) COLLATE utf8mb3_persian_ci NOT NULL,
-  `password` varchar(20) COLLATE utf8mb3_persian_ci NOT NULL,
-  `Age` int NOT NULL,
-  `Email` varchar(40) COLLATE utf8mb3_persian_ci NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_persian_ci;
+DROP TABLE IF EXISTS `newssave`;
+CREATE TABLE IF NOT EXISTS `newssave` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `imageurl` varchar(50) COLLATE utf8mb3_persian_ci NOT NULL,
+  `title` varchar(50) COLLATE utf8mb3_persian_ci NOT NULL,
+  `text` text COLLATE utf8mb3_persian_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_persian_ci;
 
 --
--- Dumping data for table `login`
+-- Dumping data for table `newssave`
 --
 
-INSERT INTO `login` (`Username`, `password`, `Age`, `Email`) VALUES
-('Majid', 'majid1386mm', 17, 'majidgamerknight@gmail.com');
+INSERT INTO `newssave` (`id`, `imageurl`, `title`, `text`) VALUES
+(8, 'images/microsoft1.png', 'microsoft buys minecraft', 'the famouse microsoft company has bought the new arising game called minecraft by developer Markus Alexej Persson, also known as Notch');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

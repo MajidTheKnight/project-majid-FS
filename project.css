@@ -11,6 +11,10 @@ body {
     padding: 0 !important;
     height: 100vh !important;              
     text-shadow: 2px 2px 5px black !important; 
+    width: 100vw !important;
+    overflow-x: hidden !important;
+    
+    
 }
 
 main {
@@ -151,4 +155,15 @@ body, p, h1, h2, h3, h4, h5, h6, .lead, .display-4 {
     justify-content: center !important;
     font-size: medium !important;
     text-align: center !important;
+}
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    direction: ltr !important;
+
+    
+}
+.col {
+    padding: 0 !important;
 }
