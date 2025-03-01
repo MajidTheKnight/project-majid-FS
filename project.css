@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif !important;
-    direction: rtl !important;
+    direction: ltr !important; 
     background-image: url('MW.jpg') !important; 
     background-size: cover !important;          
     background-position: center !important;     
@@ -13,8 +13,6 @@ body {
     text-shadow: 2px 2px 5px black !important; 
     width: 100vw !important;
     overflow-x: hidden !important;
-    
-    
 }
 
 main {
@@ -119,6 +117,7 @@ a:hover {
     color: #333 !important; 
     text-decoration: underline !important;
 }
+
 .navbar, .navbar-nav {
     background-color: #007bff !important;  
     color: white !important;  
@@ -131,7 +130,6 @@ a:hover {
 .nav-link:hover {
     color: #333 !important;  
 }
-
 
 h1, h2, h3, h4, h5, h6 {
     color: #000 !important; 
@@ -150,20 +148,86 @@ body, p, h1, h2, h3, h4, h5, h6, .lead, .display-4 {
     text-align: center !important;
 }
 
-#div-in-about{
+#div-in-about {
     color: black !important;
     justify-content: center !important;
     font-size: medium !important;
     text-align: center !important;
 }
+
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
     width: 100% !important;
     direction: ltr !important;
-
-    
 }
+
 .col {
     padding: 0 !important;
+}
+
+.btn-success {
+    background-color: #28a745; 
+    border-color: #28a745;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838; 
+}
+
+.signup-card {
+    background-color: #1e1e2f;
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+.signup-header {
+    background-color: #000;
+    border-bottom: 1px solid #00ffcc;
+}
+
+.signup-title {
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.signup-input {
+    background-color: #2a2a40;
+    border: 1px solid #00ffcc;
+    color: #fff;
+}
+
+.signup-input:focus {
+    background-color: #2a2a40;
+    border-color: #00cc99;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+.signup-button {
+    background-color: #00ffcc;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #00cc99;
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.fa-eye, .fa-eye-slash {
+    color: #666; 
+    transition: color 0.3s ease;
+}
+
+.fa-eye:hover, .fa-eye-slash:hover {
+    color: #000; 
+}
+
+body, input, textarea, p, h1, h2, h3, h4, h5, h6 {
+    direction: ltr !important;
+    text-align: left !important;
 }

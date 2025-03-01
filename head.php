@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +26,7 @@ session_start();
                 echo "<a href='logout.php' class='btn btn-danger btn-sm'>Logout</a>";
             } else {
                 echo "<a href='login.php' class='btn btn-primary btn-sm'>Login</a>";
+                echo "<a href='signup.php' class='btn btn-success btn-sm ms-2'>Sign Up</a>";
             }
             ?>
         </div>
@@ -38,12 +41,16 @@ session_start();
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="signup.php" class="nav-link">Sign Up</a></li>
-                <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
                 <li class="nav-item"><a href="project.php" class="nav-link">Genres</a></li>
                 <li class="nav-item"><a href="news.php" class="nav-link">User Content</a></li>
-                <li class="nav-item"><a href="management.php" class="nav-link">UC Add</a></li>
-                <li class="nav-item"><a href="logout.php" class="nav-link">Logout</a></li>
+                <?php
+                if (isset($_SESSION['role']) && ($_SESSION['role'] === 'admin' || $_SESSION['role'] === 'owner')) {
+                    echo "<li class='nav-item'><a href='management.php' class='nav-link'>Management</a></li>";
+                }
+                if (isset($_SESSION['role']) && $_SESSION['role'] === 'owner') {
+                    echo "<li class='nav-item'><a href='owner_panel.php' class='nav-link'>Owner Panel</a></li>";
+                }
+                ?>
                 <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             </ul>
